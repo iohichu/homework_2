@@ -1,0 +1,55 @@
+   0 pwd
+   1 ls -la
+   2 mkdir .123
+   3 ls
+   4 ls -a
+   5 mkdir /root/test3/newfolder
+   6 mkdir -p /root/test3/newfolder
+   7 df h
+   8 df -h
+   9 df -h > /root/test3/newfolder/myfile.txt
+  10 ls -a | head -9
+  11 ls -a / | head -9 
+  12 cat /.fscmd 
+  13 ls -a / | head -9 >> /root/test3/newfolder/myfile.txt 
+  14 whoami
+  15 cat /etc/group | tail -3 | wc -m
+  16 cat /etc/group | tail -3 | wc -m >> /root/test3/newfolder/myfile.txt 
+  17 vi /root/test3/newfolder/myfile.txt 
+  18 clear
+  19 vi /root/test3/newfolder/myfile.txt 
+  20 history
+  21 ls -l
+  22 chmod u+x,g-r,o+w
+  23 chmod u+x,g-r,o+w bench.py 
+  24 ls -l
+  25 chmod a-rwx bench.py 
+  26 ls -l
+  27 cat bench.py 
+  28 nano bench.py 
+  29 ls -l
+  30 chmod 741 bench.py 
+  31 ls -l
+  32 chmod 7 bench.py 
+  33 ls -l
+  34 chmod 44 bench.py 
+  35 ls -l
+  36 chmod 042 bench.py 
+  37 ls -l
+  38 chmod 0 bench.py 
+  39 ls -l
+  40 chmod 7 bench.py 
+  41 ls -l
+  42 chmod 000 bench.py 
+  43 ls -l
+  44 chmod 777 bench.py 
+  45 ls -l
+  46 chmod 744 bench.py 
+  47 ls -l
+  48 chmod 755 bench.py 
+  49 ls -l
+  50 chmod 764 bench.py 
+  51 ls -l
+  52 df -h
+  53 nano script.sh
+  54 history >> history.txt
